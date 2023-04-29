@@ -1,0 +1,8 @@
+# Directories
+**/resources/
+**/tests/
+**/node_modules/
+
+# Files
+**/classNotes*
+**/Notes

@@ -13,3 +13,12 @@ html {
 body {
     box-sizing: border-box;
 }
+
+a:link,
+a:visited {
+    color: $color-white;
+}
+
+// a:hover {
+//     color: $color-very-light-green !important;
+// }

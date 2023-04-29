@@ -1,0 +1,75 @@
+.navbar {
+    font-family: "Roboto Slab", sans-serif;
+    height: 6rem;
+    margin: 0 3rem;
+    background-color: $color-very-dark-green;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    background-color: $color-light-green;
+}
+
+.nav-link {
+    margin: 0 5rem;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: $color-very-light-green;
+    }
+}
+
+.navbar-togler-icon {
+    @include display-center;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width:992px) {
+    #navbarNavAltMarkup {
+        background-color: $color-very-dark-green;
+        border-radius: 0.5rem;
+        padding: 2rem;
+        text-align: center;
+
+
+    }
+
+    .nav-link {
+        margin: 1rem 0;
+    }
+
+    // .nav-link {
+    //     padding: 1rem;
+    // }
+}
+
+// @media screen and (max-width: 992px) {
+ 
+    
+//     #navbarNavAltMarkup {
+//         position: inherit;
+//         top: 8rem;
+//         left: 50%;
+//         background-color: #fff;
+//         height: 30rem;
+//         padding: 2rem;
+    
+//     }
+    
+//     .header__nav-ul.navbar-nav {
+//         width: 100%;
+//         flex-direction: column;
+//         color: black;
+//     }
+    
+//     .navbar-collapse {
+//         flex-grow: 1;
+//     }
+    
+//     .header__nav-item.nav-item {
+//         padding: 2rem;
+//     }
+    
+//     }

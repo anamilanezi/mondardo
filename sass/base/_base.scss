@@ -1,9 +1,8 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
     box-sizing: inherit;
+    @include zero;
 }
 
 html {
@@ -12,13 +11,17 @@ html {
 
 body {
     box-sizing: border-box;
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 6rem 3rem 3rem;
 }
+
+
 
 a:link,
 a:visited {
     color: $color-white;
 }
 
-// a:hover {
-//     color: $color-very-light-green !important;
-// }

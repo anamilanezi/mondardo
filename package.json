@@ -1,0 +1,11 @@
+{
+  "name": "mondardo",
+  "version": "1.0.0",
+  "description": "Página da web para Móveis Mondardo",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch --update sass/main.scss css/style.css"
+  },
+  "author": "Ana Medeiros Milanezi",
+  "license": "ISC"
+}

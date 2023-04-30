@@ -1,8 +1,6 @@
 .header {
-    height: 85vh;
-    position: relative;
+    height: 100vh;
     // clip-path: polygon(0 0, 0 100%, 100% 75%, 100% 0);
-
 
     &__image {
         background-image: url('../../images/header.png');
@@ -16,9 +14,57 @@
         background-position: top;
     }
 
-    &__title {
+    &__title-box {
         background-color: $color-very-dark-green;
         height: 100%;
         @include display-center;
     }
+}
+
+
+.heading-primary {
+    color: $color-white;
+    text-transform: uppercase;
+    backface-visibility: hidden;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+
+    &--main {
+        display: block;
+        animation-name: moveInLeft;
+        animation-duration: 2s;
+        animation-timing-function: ease-out;
+        @include font-size($main-title-font-sizes);
+
+    }
+
+    &--sub {
+        display: block;
+        font-size: 6.2rem;
+        animation: moveInRight 2s ease-out;
+    }
+}
+
+.heading-secundary {
+    color: $color-very-light-green;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 2.8rem;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:992px)  {
+    .header {
+        &__image {
+            height: 60vh;
+        }
+
+        &__title-box {
+            height: 40vh;
+        }
+
+    }
+
+
 }

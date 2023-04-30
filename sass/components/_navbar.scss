@@ -1,10 +1,11 @@
 .navbar {
     font-family: "Roboto Slab", sans-serif;
     height: 6rem;
-    margin: 0 3rem;
+    // margin: 0 3rem;
     background-color: $color-green;
     letter-spacing: 0.4rem;
     text-transform: uppercase;
+    box-shadow: 0 1rem 1rem rgba($color-very-dark-green, 0.2);
 }
 
 .navbar-brand {
@@ -15,14 +16,8 @@
     background-color: $color-light-green;
 }
 
-.nav-link {
-    margin: 0 5rem;
-
-    &:hover,
-    &:active,
-    &:focus {
-        color: $color-very-light-green;
-    }
+.nav-item, .nav-link {
+    padding: 0 5rem;
 }
 
 .navbar-togler-icon {
@@ -36,13 +31,10 @@
         border-radius: 0.5rem;
         padding: 2rem;
         text-align: center;
-
-
     }
 
     .nav-link {
         margin: 1rem 0;
     }
-
 
 }

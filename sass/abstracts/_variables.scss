@@ -13,6 +13,21 @@ $color-light-green: #A1C1A4;
 $color-very-light-green: #BFD6C1;
 
 
+$h1-font-sizes: (
+  null  : 2.8rem,
+  480px : 3.1rem,
+  640px : 3.3rem,
+  1024px: 3.6rem
+);
+
+$h3-font-sizes: (
+  null  : 1.9rem,
+  480px : 2.2rem,
+  640px : 2.4rem,
+  1024px: 2.8rem
+);
+
+
 $title-font-sizes: (
   null  : 2.8rem,
   480px : 3.6rem,
@@ -27,3 +42,5 @@ $main-title-font-sizes: (
   1200px: 6.2rem,
   1440px: 7.6rem,
 );
+
+

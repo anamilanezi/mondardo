@@ -25,6 +25,25 @@ a:visited {
   color: #fff;
 }
 
+.title {
+  font-size: 2.8rem;
+}
+@media screen and (min-width: 480px) {
+  .title {
+    font-size: 3.6rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  .title {
+    font-size: 4.2rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .title {
+    font-size: 5.2rem;
+  }
+}
+
 /* ANIMATIONS  */
 @keyframes moveInLeft {
   0% {
@@ -263,6 +282,41 @@ a:visited {
   .horario__img {
     height: 50vh;
   }
+}
+.depoimentos {
+  background-color: #387040;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+}
+.depoimentos__title {
+  font-style: italic;
+  font-size: 1.9rem;
+}
+@media screen and (min-width: 480px) {
+  .depoimentos__title {
+    font-size: 2.2rem;
+  }
+}
+@media screen and (min-width: 640px) {
+  .depoimentos__title {
+    font-size: 2.4rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .depoimentos__title {
+    font-size: 2.8rem;
+  }
+}
+
+#myCarousel {
+  background-color: #387040;
+}
+
+.carousel-caption,
+.carousel-indicators,
+.carousel-inner {
+  background-color: #387040;
 }
 
 /*# sourceMappingURL=style.css.map */

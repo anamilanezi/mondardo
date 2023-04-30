@@ -26,3 +26,7 @@ a:visited {
     color: $color-white;
 }
 
+
+.title {
+    @include font-size($title-font-sizes);
+}

@@ -1,0 +1,21 @@
+.depoimentos {
+    background-color: $color-very-dark-green;
+    color: $color-white;
+    text-align: center;
+    padding: 5rem 0;
+
+    &__title {
+        font-style: italic;
+        @include font-size($h3-font-sizes);
+    }
+}
+
+#myCarousel {
+    background-color: $color-very-dark-green;
+}
+
+.carousel-caption,
+.carousel-indicators,
+.carousel-inner {
+    background-color: $color-very-dark-green;
+}
